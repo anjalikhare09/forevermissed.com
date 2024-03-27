@@ -1,0 +1,388 @@
+
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.full {
+    height: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('{{ asset('images/main-container-background.webp') }}');
+    position: relative;
+    background-repeat: no-repeat !important;
+}
+.our-community {
+    display: flex;
+    width: 100%;
+}
+.our-image {
+    width: 80%;
+    display: flex;
+
+}
+.images a {
+    font-size: 14px;
+    max-width: 180px;
+    padding: 0;
+    line-height: 20px;
+    white-space: normal;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    color: #c39c65;
+    text-align: center;
+}
+.images img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.community-statistic {
+    width: 230px;
+    height: 180px;
+    color: #4e5454;
+    padding: 22px 16px;
+    border-radius: 8px;
+    background: linear-gradient(0deg, rgba(225, 231, 231, 0.6), rgba(225, 231, 231, 0.6)), #e8eff0;
+    margin-bottom: 4px;
+}
+.community-statistic-title {
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: .4px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #bfcdcf;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+ul.community-statistic-list {
+    list-style: none;
+}
+.community-statistic-list li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: .2px;
+    white-space: nowrap;
+    color: #536c70;
+    margin-bottom: 4px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+.browse-all-memorials {
+    text-align: center;
+}
+.browse-all-memorials a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #1b4046;
+    transition: all .15s ease;
+    padding: 15px 6px 15px 10px;
+    background: #e4ebeb;
+    border-radius: 8px;
+}
+.images {
+    margin-right: 60px;
+}
+.our-text {
+    width: 20%;
+}
+#content .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form form {
+    padding: 40px;
+}
+h1.form-title {
+    line-height: 1.2em;
+    margin: 4px 0 16px;
+    font-size: 48px;
+    letter-spacing: -.2px;
+}
+h3.title-help-text {
+    color: #63787b;
+    font-size: 20px;
+    letter-spacing: .1px;
+    line-height: 140%;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.form h5 {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: .2px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    color: #788d90;
+    padding-top: 20px;
+}
+.formed {
+    display: flex;
+    justify-content: space-between;
+}
+.st {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #f5fcff;
+    border: 1px solid #bfcdcf;
+    box-shadow: none;
+    color: #1b4046;
+    display: inline-block;
+    font-size: 16px;
+    height: 48px;
+    max-width: 100%;
+    outline: none;
+    padding: 14px 15px;
+    width: 100%;
+    -webkit-appearance: none;
+}
+.website {
+    width: 33%;
+}
+.website button {
+    border: 1px solid #a88959;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 1px rgba(255,255,255,.4);
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 11px 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+    transition: all .4s ease;
+    width: 100%;
+    background: #a88959;
+
+
+}
+.online-memorial button {
+    align-items: center;
+    color: #1b4046;
+    /* display: flex; */
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    transition: all .15s ease;
+    align-items: center;
+    display: inline-flex;
+    /* justify-content: center; */
+    padding: 12px 20px 12px 24px;
+    background: 0 0;
+    background-blend-mode: soft-light, normal;
+    margin: 0 16px;
+    min-width: 252px;
+    box-shadow: -0.90248px -0.90248px 2.70745px #f6f9f9, 1.35373px 1.35373px 2.70745px #bbcaca;
+    border-radius: 80px;
+    margin-top: 15px;
+}
+
+.full:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: grey;
+    opacity: 0.20;
+    top: 0px;
+}
+.recent {
+    padding: 60px 0 0px 0;
+    text-align: center;
+}
+
+.recent h4 {
+font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: .4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 48px;
+    font-family: sans-serif;
+    color: #1B4045;
+}
+.special-galleries {
+    margin-bottom: 12px;
+}
+ .special-galleries-title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: .4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 48px;
+    color: #1b4046;
+    font-family: sans-serif;
+}
+.items-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ .items-wrapper .item {
+    position: relative;
+    min-width: 504px;
+    min-height: 132px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #1b4046;
+    background-size: cover;
+    border-radius: 8px;
+    padding: 24px;
+    overflow: hidden;
+    margin-bottom: 48px;
+    box-shadow: 2px 2px 6px #bbcaca, -1px -1px 4px #f6f9f9;
+    transition: all .2s ease-in-out;
+}
+.background-image.fm {
+    background: url(/images/all-gallery-colored.jpg)no-repeat right;
+    
+}
+.background-image.covid {
+    background: url(/images/covid-colored.jpg) no-repeat right;
+}
+.background-image.veterans {
+    background: url(/images/veterans-colored.jpg) no-repeat right;
+}
+.background-image.first-responders {
+    background: url(/images/responders-colored.jpg) no-repeat right;
+}
+.items-wrapper .item .text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 300px;
+    margin-bottom: 10px;
+    z-index: 2;
+    font-family: sans-serif;
+}
+.items-wrapper a {
+    text-decoration: none;
+}
+.learn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #c39c65;
+    z-index: 2;
+}
+ .background-image {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+/*abut page css*/
+
+section.about-us {
+    background: #d5dcdd;
+    padding-bottom: 60px;
+}
+.about-head h2 {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: left;
+    color: #000;
+    font-stretch: normal;
+    padding: 5px 30px 30px;
+    margin: 0;
+    padding: 20px 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.inner-section {
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+}
+.left-img {
+    width: 30%;
+    margin: 5px 57px 0 0;
+}
+.rigt-text {
+    width: 70%;
+    font-size: 20px;
+    line-height: 26px;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.inner-section {
+    width: 100%;
+    display: flex;
+}
+.man-img img {
+    width: 100%;
+}
+.sign {
+    font-size: 22px;
+    line-height: 18px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.sign span {
+    color: #94a4a8;
+    display: block;
+    padding-top: 10px;
+}
+p.first {
+    margin: 0 0 15px;
+    letter-spacing: .01em;
+}
+ .signature {
+    margin: 0 0 17px;
+    padding: 11px 0 0;
+}
+.signup {
+    text-align: right;
+    width: 100%;
+}
+.signup a {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-decoration: none;
+    color: #a88958;
+}
+
+
+
+/*abut page css end/

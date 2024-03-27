@@ -1,0 +1,236 @@
+body {
+    margin: 0px;
+}
+
+#header.with-ua-top-banner {
+    background: linear-gradient(180deg, #95a8ae 58px, #d3dbdd calc(100% - 52px));
+}
+
+.header {
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#header .header {
+    flex-direction: row;
+    padding: 40px 0;
+    background: url('/public/images/header-logo.png') no-repeat 50% 0;
+
+}
+
+.inner-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+#header .header .central-block {
+    display: block;
+}
+
+#header .header .central-block {
+    margin-left: 160px;
+    margin-right: 0;
+}
+
+label.fast-search-label {
+    align-items: center;
+    background-color: #f2f7fa;
+    border: 1px solid #bfcdcf;
+    border-radius: 40px;
+    color: #889ea3;
+    display: flex;
+    font-size: 14px;
+    height: 100%;
+    justify-content: flex-start;
+    letter-spacing: .2px;
+    line-height: 20px;
+    opacity: 1;
+    padding: 10px 16px;
+    /* position: absolute; */
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 2;
+}
+
+#header .header .right-block {
+    margin-left: auto;
+}
+
+#header .header .right-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-menu {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-menu__link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+    margin: 0 12px 0 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.welcome-menu__link i {
+    font-size: 20px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+.header-menu {
+    display: block;
+    background-color: #f5fcff;
+    color: #4e5454;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-menu__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-menu__item_active {
+    background-color: #d9e6e8;
+}
+
+.header-menu__link {
+    display: block;
+    padding: 16px 23px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .4px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #4e5454;
+    -webkit-transition: background-color .15s ease-in-out;
+    -o-transition: background-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+    font-family: sans-serif;
+}
+
+.header-menu__item_submenu {
+    position: relative;
+    -webkit-transition: background-color .15s ease-in-out;
+    -o-transition: background-color .15s ease-in-out;
+    transition: background-color .15s ease-in-out;
+}
+
+.header-menu__link_label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 16px 23px;
+    font-size: 16px;
+}
+
+.header-menu__sublist {
+    position: absolute;
+    z-index: 9;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #d9e6e8;
+    box-shadow: 4px 8px 8px rgba(0, 0, 0, .04);
+    padding: 4px 0;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .15s ease-in-out, visibility 0s .15s;
+    -o-transition: opacity .15s ease-in-out, visibility 0s .15s;
+    transition: opacity .15s ease-in-out, visibility 0s .15s;
+}
+
+.header-menu__sublist-item {
+    list-style: none;
+}
+
+.header-menu__link:hover,
+.header-menu__link:focus {
+    background-color: #d9e6e8;
+    color: #4e5454;
+}
+
+li.header-menu__item {
+    list-style: none;
+}
+#content {
+    padding-top:200px ;
+}
+
+#content {
+    background: url('https://www.freewebheaders.com/wp-content/gallery/forests-fields/green-forest-and-clouds-website-header.jpg') no-repeat 50% 0;
+    background-size: cover;
+    height: auto;
+}
+#content .header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#content.header .footer-menu {
+    list-style: none;
+    margin: 0 -.5em;
+    vertical-align: sub;
+    width: 80%;
+}
+
+#content .header .footer-menu li {
+    display: inline-block;
+    margin: 0 .5em;
+    white-space: nowrap;
+    letter-spacing: -.5px;
+}
+.footer-menu {
+    list-style: none;
+    margin: 0 -.5em;
+    vertical-align: sub;
+    width: 80%;
+    position: relative;
+}
+.footer-menu li a {
+    color: #e1e1e1;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+div#content {
+    position: relative;
+}
+div#content:before {
+    content: "";
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.5;
+}
+.text {
+    font-size: 18px;
+}
+.follow-us-wrapper {
+    color: #fff;
+    position: relative;
+}
